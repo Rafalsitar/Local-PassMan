@@ -1,0 +1,15 @@
+C:\Users\Rafal\Documents\dev\Local-Easy-PassMan\bin\Release\net7.0\Local-Easy-PassMan.exe
+C:\Users\Rafal\Documents\dev\Local-Easy-PassMan\bin\Release\net7.0\Local-Easy-PassMan.deps.json
+C:\Users\Rafal\Documents\dev\Local-Easy-PassMan\bin\Release\net7.0\Local-Easy-PassMan.runtimeconfig.json
+C:\Users\Rafal\Documents\dev\Local-Easy-PassMan\bin\Release\net7.0\Local-Easy-PassMan.dll
+C:\Users\Rafal\Documents\dev\Local-Easy-PassMan\bin\Release\net7.0\Local-Easy-PassMan.pdb
+C:\Users\Rafal\Documents\dev\Local-Easy-PassMan\obj\Release\net7.0\Local-Easy-PassMan.csproj.AssemblyReference.cache
+C:\Users\Rafal\Documents\dev\Local-Easy-PassMan\obj\Release\net7.0\Local-Easy-PassMan.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Rafal\Documents\dev\Local-Easy-PassMan\obj\Release\net7.0\Local-Easy-PassMan.AssemblyInfoInputs.cache
+C:\Users\Rafal\Documents\dev\Local-Easy-PassMan\obj\Release\net7.0\Local-Easy-PassMan.AssemblyInfo.cs
+C:\Users\Rafal\Documents\dev\Local-Easy-PassMan\obj\Release\net7.0\Local-Easy-PassMan.csproj.CoreCompileInputs.cache
+C:\Users\Rafal\Documents\dev\Local-Easy-PassMan\obj\Release\net7.0\Local-Easy-PassMan.dll
+C:\Users\Rafal\Documents\dev\Local-Easy-PassMan\obj\Release\net7.0\refint\Local-Easy-PassMan.dll
+C:\Users\Rafal\Documents\dev\Local-Easy-PassMan\obj\Release\net7.0\Local-Easy-PassMan.pdb
+C:\Users\Rafal\Documents\dev\Local-Easy-PassMan\obj\Release\net7.0\Local-Easy-PassMan.genruntimeconfig.cache
+C:\Users\Rafal\Documents\dev\Local-Easy-PassMan\obj\Release\net7.0\ref\Local-Easy-PassMan.dll

@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v7.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v7.0": {
+      "Local-Easy-PassMan/1.0.0": {
+        "runtime": {
+          "Local-Easy-PassMan.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Local-Easy-PassMan/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

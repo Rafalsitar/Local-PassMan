@@ -1,0 +1,30 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33205.214
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Local-Easy-PassMan", "Local-Easy-PassMan.csproj", "{D4BF2021-14C9-495D-A4CD-7FE99D39594A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{F14CB824-E2A2-4B1B-9784-05DEBFB22AA0}"
+	ProjectSection(SolutionItems) = preProject
+		.editorconfig = .editorconfig
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D4BF2021-14C9-495D-A4CD-7FE99D39594A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D4BF2021-14C9-495D-A4CD-7FE99D39594A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D4BF2021-14C9-495D-A4CD-7FE99D39594A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D4BF2021-14C9-495D-A4CD-7FE99D39594A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {964841B6-7770-456F-ABE2-50067CAE16E8}
+	EndGlobalSection
+EndGlobal
