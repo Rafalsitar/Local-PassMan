@@ -62,7 +62,8 @@ namespace PassMan
                 Console.WriteLine("what's the username you want to get the account details?");
                 string uname = Console.ReadLine();
                 string unametxt = uname + ".txt";
-                string[] readlines = File.ReadAllLines("LocalData/" + unametxt);
+                string website = File.ReadLines("LocalData/" + unametxt).SkipWhile(line => !line.Contains("WEBSITE")).Skip(1).FirstOrDefault();
+                string password = File.ReadLines("LocalData/" + unametxt).SkipWhile(line => !line.Contains("PASSWORD")).Skip(1).FirstOrDefault();
                 string adpass = File.ReadLines("LocalData/" + unametxt).SkipWhile(line => !line.Contains("ADPASS")).Skip(1).FirstOrDefault();
                 Console.Clear();
                 Console.WriteLine("an AD password is required.");
@@ -70,7 +71,8 @@ namespace PassMan
                 if (adpass == adpassuinput)
                 {
                     Console.Clear();
-                    Console.WriteLine(readlines);
+                    Console.WriteLine("Website: " + website);
+                    Console.WriteLine("password: " + password);
                     Console.WriteLine("Type X to exit or Y to go back to menu");
                     string exitorcontinue = Console.ReadLine();
                     if (exitorcontinue == "X")
