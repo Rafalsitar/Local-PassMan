@@ -71,6 +71,7 @@ namespace PassMan
                 if (adpass == adpassuinput)
                 {
                     Console.Clear();
+                    Console.WriteLine("Username: " + uname);
                     Console.WriteLine("Website: " + website);
                     Console.WriteLine("password: " + password);
                     Console.WriteLine("Type X to exit or Y to go back to menu");
