@@ -110,7 +110,8 @@ namespace PassMan
             }
             Console.Clear();
             Console.WriteLine("Welcome to my password manager. here you don't have to worry about data leaks as everything is stored locally.");
-            Console.WriteLine("Do you want to write, read, exit, reset the program wide password or display all usernames tied to a website? (w/r/x/rst/ds)");
+            Console.WriteLine("Do you want to write, read, exit, reset the program wide password or display all usernames tied to a website?");
+            Console.WriteLine("(w/r/x/rst/ds)");
             string wr = Console.ReadLine();
             if (wr == "w")
             {
@@ -146,6 +147,7 @@ namespace PassMan
                 Console.Clear();
                 Console.WriteLine("what's the username you want to get the account details?");
                 string unl = Console.ReadLine();
+                Console.Clear();
                 Console.WriteLine("For which website is it?");
                 string wsl = Console.ReadLine();
                 string ubl = unl + "-";
@@ -165,6 +167,18 @@ namespace PassMan
                         Console.WriteLine("Username: " + unl);
                         Console.WriteLine("Website: " + website);
                         Console.WriteLine("Password: " + password);
+                        Console.WriteLine("Type X to exit or Y to go back to menu");
+                        string em = Console.ReadLine();
+                        if (em == "X")
+                        {
+                            Console.Clear();
+                            System.Environment.Exit(0);
+                        }
+                        else
+                        {
+                            Console.Clear();
+                            Passman("0");
+                        }
                     }
                     else
                     {
